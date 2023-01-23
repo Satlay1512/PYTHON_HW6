@@ -26,9 +26,7 @@
 
 # a = [random.randint(1, 10) for i in range(6)]
 # print(a)
-# # res = sum([value for indx, value in enumerate(a) if indx%2==1])
-# res = list(map(lambda x: a[x] if (x)%2==1 else None, list(range(len(a)))))
-# res = [i for i in res if i!=None]
+# res = list(map(lambda x: a[x] if (x)%2==1 else None, list(range(1, len(a), 2))))
 # print(res)
 
 
@@ -47,5 +45,4 @@
 # n = int(input('Enter power of number (-3) '))
 # res = [(-3)**i for i in range(n)]
 # print(res)
-
 # print([(-3)**i for i in range(int(input()))])
